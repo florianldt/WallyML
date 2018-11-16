@@ -25,6 +25,11 @@ Here are the simple steps to create it:
 2. Follow the [guide](https://github.com/apple/turicreate#installation) to install Turi Create (I also recommend using virtualenv to use, install, or build Turi Create.)
 3. In the `Turi Create Resources` folder, run `python WallyML.py`
 
+## TensorFlow users
+
+If you are a [TensorFlow](https://www.tensorflow.org) user for `Object Detection` and want to try [Turi Create](https://github.com/apple/turicreate), I also open-sourced [TFannotations2TC](https://github.com/FlorianLdt/TFannotations2TC), a little Python script to convert the TensorFlow annotations csv file into a Turi Create annotations csv file.
+Nothing fancy here, but can help some people.
+
 ## References
 Turi Create documentation: https://github.com/apple/turicreate
 
