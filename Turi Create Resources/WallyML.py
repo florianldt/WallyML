@@ -6,7 +6,6 @@ print(training_images)
 training_annotations = tc.SFrame('annotations.csv')
 print(training_annotations)
 
-
 training_data = training_images.join(training_annotations)
 print(training_data)
 
