@@ -18,7 +18,7 @@ As a Machine Learning novice, the goal of this project was not to have a bullet 
 
 ## Create the Turi Create model on your own machine
 
-The Turi Create model used for this project is available on the [repository](https://github.com/FlorianLdt/WallyML/tree/master/Turi%20Create%20Resources). However, if you want to create the Turi Create model used for this project in your own machine, the annotations files and images are also available in the [repository](https://github.com/FlorianLdt/WallyML/tree/master/Turi%20Create%20Resources).
+If you want to create the Turi Create model used for this project in your own machine, the annotations files and images are also available in the [repository](https://github.com/FlorianLdt/WallyML/tree/master/Turi%20Create%20Resources).
 
 Here are the simple steps to create it:
 1. Check the [System Requirements](https://github.com/apple/turicreate#system-requirements) to check if your machine and/or Python version can run Turi Create
