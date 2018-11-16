@@ -1,0 +1,6 @@
+path,annotations
+eval_images/1.jpg,[{"coordinates": {"height": 31, "width": 25, "x": 1410, "y": 484}, "label": "waldo"}]
+eval_images/2.jpg,[{"coordinates": {"height": 31, "width": 22, "x": 1276, "y": 96}, "label": "waldo"}]
+eval_images/3.jpg,[{"coordinates": {"height": 95, "width": 75, "x": 662, "y": 185}, "label": "waldo"}]
+eval_images/3.jpg,[{"coordinates": {"height": 27, "width": 19, "x": 1181, "y": 309}, "label": "waldo"}]
+eval_images/4.jpg,[{"coordinates": {"height": 13, "width": 10, "x": 304, "y": 439}, "label": "waldo"}]
