@@ -16,15 +16,6 @@ As explained during this talk, solving "Where's Wally?" using Machine Learning i
 
 As a Machine Learning novice, the goal of this project was not to have a bullet proof Wally finder, but more to see the possibilities of the Machine Learning technology and the Turi Create framwork with an interesting and fun project. 
 
-## Create the Turi Create model on your own machine
-
-If you want to create the Turi Create model used for this project in your own machine, the annotations files and images are also available in the [repository](https://github.com/FlorianLdt/WallyML/tree/master/Turi%20Create%20Resources).
-
-Here are the simple steps to create it:
-1. Check the [System Requirements](https://github.com/apple/turicreate#system-requirements) to check if your machine and/or Python version can run Turi Create
-2. Follow the [guide](https://github.com/apple/turicreate#installation) to install Turi Create (I also recommend using virtualenv to use, install, or build Turi Create.)
-3. In the `Turi Create Resources` folder, run `python WallyML.py`
-
 ## TensorFlow users
 
 If you are a [TensorFlow](https://www.tensorflow.org) user for `Object Detection` and want to try [Turi Create](https://github.com/apple/turicreate), I also open-sourced [TFannotations2TC](https://github.com/FlorianLdt/TFannotations2TC), a little Python script to convert the TensorFlow annotations csv file into a Turi Create annotations csv file.
