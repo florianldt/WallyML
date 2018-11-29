@@ -71,7 +71,7 @@ class ConfidenceThresoldCell: UITableViewCell {
     
     @objc func updateConfidenceThreshold(sender: UISlider) {
         guard let delegate = delegate else { return }
-        let roundedValue: Float =  (roundf(sender.value / 0.05) * 0.05).truncate(places: 2)
+        let roundedValue: Float =  (roundf(sender.value / 0.02) * 0.02).truncate(places: 2)
         print(roundedValue)
         self.confidenceSlider.value = roundedValue
         self.confidenceThresoldValue.text = "\(roundedValue)"
