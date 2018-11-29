@@ -15,6 +15,7 @@ class FinderViewController: UIViewController {
     let imageToAnalyse: UIImage
     let userPreferences: UserPreferences
     
+    var resizedImage: UIImage?
     var predictions: [Prediction]?
     
     var infoBarButton: UIBarButtonItem!
@@ -42,6 +43,8 @@ class FinderViewController: UIViewController {
         self.waldoMLEngine = waldoMLEngine
         super.init(nibName: nil, bundle: nil)
         title = "WallyML"
+        let resizedSize: CGSize = CGSize(width: 1024, height: 1024)
+        self.resizedImage = image.scaleImage(toSize: resizedSize)
         self.waldoMLEngine.delegate = self
     }
     
@@ -128,7 +131,8 @@ class FinderViewController: UIViewController {
     
     @objc func process() {
         self.updateDetectionState(with:.searching)
-        guard let image = self.imageScrollView.getCurrentImage(), let ciImage = CIImage(image: image) else {
+        
+        guard let resizedImage = self.resizedImage, let ciImage = CIImage(image: resizedImage) else {
             updateDetectionState(with: .error("Something is wrong with the image"))
             return
         }
@@ -137,6 +141,8 @@ class FinderViewController: UIViewController {
             guard let strongSelf = self else { return }
             strongSelf.updateDetectionState(with: state)
         }
+//        print("image.size:", image.size)
+//        print("resizedImage.size ", resizedImage.size)
     }
     
     @objc func hideBoundingBox() {
