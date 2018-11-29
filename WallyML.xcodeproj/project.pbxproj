@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1716847C21AE2BA000ADECB4 /* WallyML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1716847B21AE2BA000ADECB4 /* WallyML.mlmodel */; };
 		172A6EF2219D20A700B0829F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F92324219D1B1D002CFAEB /* AppDelegate.swift */; };
 		172A6EF6219D211D00B0829F /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A6EF5219D211D00B0829F /* Const.swift */; };
 		172A6EF8219D213B00B0829F /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A6EF7219D213B00B0829F /* Float+Extension.swift */; };
@@ -14,7 +15,6 @@
 		172A6EFC219D217400B0829F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A6EFB219D217400B0829F /* UIImage+Extension.swift */; };
 		172A6EFE219D218D00B0829F /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A6EFD219D218D00B0829F /* UIImageView+Extension.swift */; };
 		172A6F00219D21A900B0829F /* UIViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A6EFF219D21A900B0829F /* UIViewController+Extention.swift */; };
-		172A6F03219D21DB00B0829F /* WallyML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 172A6F02219D21DB00B0829F /* WallyML.mlmodel */; };
 		172A6F06219D220400B0829F /* WallyMLEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A6F05219D220400B0829F /* WallyMLEngine.swift */; };
 		172A6F09219D223700B0829F /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A6F08219D223700B0829F /* FinderViewController.swift */; };
 		172A6F0B219D225200B0829F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A6F0A219D225200B0829F /* HomeViewController.swift */; };
@@ -36,13 +36,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1716847B21AE2BA000ADECB4 /* WallyML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = WallyML.mlmodel; sourceTree = "<group>"; };
 		172A6EF5219D211D00B0829F /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		172A6EF7219D213B00B0829F /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
 		172A6EF9219D215F00B0829F /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		172A6EFB219D217400B0829F /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		172A6EFD219D218D00B0829F /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		172A6EFF219D21A900B0829F /* UIViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extention.swift"; sourceTree = "<group>"; };
-		172A6F02219D21DB00B0829F /* WallyML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = WallyML.mlmodel; sourceTree = "<group>"; };
 		172A6F05219D220400B0829F /* WallyMLEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallyMLEngine.swift; sourceTree = "<group>"; };
 		172A6F08219D223700B0829F /* FinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
 		172A6F0A219D225200B0829F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		172A6F01219D21BF00B0829F /* MLModel */ = {
 			isa = PBXGroup;
 			children = (
-				172A6F02219D21DB00B0829F /* WallyML.mlmodel */,
+				1716847B21AE2BA000ADECB4 /* WallyML.mlmodel */,
 			);
 			path = MLModel;
 			sourceTree = "<group>";
@@ -255,9 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				172A6F1B219D235200B0829F /* AutoConfidenceThresholdCell.swift in Sources */,
+				1716847C21AE2BA000ADECB4 /* WallyML.mlmodel in Sources */,
 				172A6EFE219D218D00B0829F /* UIImageView+Extension.swift in Sources */,
 				172A6F12219D22B100B0829F /* Box.swift in Sources */,
-				172A6F03219D21DB00B0829F /* WallyML.mlmodel in Sources */,
 				172A6F0D219D227700B0829F /* PredictionDetailViewController.swift in Sources */,
 				172A6EF2219D20A700B0829F /* AppDelegate.swift in Sources */,
 				172A6F25219D23E500B0829F /* WallyGalleryCell.swift in Sources */,
