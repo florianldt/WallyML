@@ -4,9 +4,9 @@ Source code used for my talk: Solving “Where’s Wally?” with Turi Create
 ## Overview
 This project uses the Machine Learning framework [Turi Create](https://github.com/apple/turicreate) in order to solve the game  [“Where’s Wally?”](https://en.wikipedia.org/wiki/Where%27s_Wally%3F).
 
-The support of this talk can be found here(soon).
+The support of this talk can be found [here](https://speakerdeck.com/florianldt/solving-wheres-wally-with-turi-create-florian-ludot).
 
-The video of the talk can be found here(soon).
+The video of the talk can be found [here](https://youtu.be/GYGceQlZorE).
 
 As explained during this talk, solving "Where's Wally?" using Machine Learning is a tough challenge for multiple reasons:
 - Not a lot of data available to train the model
